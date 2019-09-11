@@ -1,0 +1,30 @@
+{
+  "login_username_is_null": {
+    "username": "",
+    "password": "123456",
+    "code": "8888",
+    "is_success": false,
+    "expect": "用户名不能为空"
+  },
+  "login_password_is_null": {
+    "username": "13012345678",
+    "password": "",
+    "code": "8888",
+    "is_success": false,
+    "expect": "密码不能为空"
+  },
+  "login_password_is_error": {
+    "username": "13612345678",
+    "password": "error",
+    "code": "8888",
+    "is_success": false,
+    "expect": "密码错误"
+  },
+  "login_success": {
+    "username": "13612345678",
+    "password": "123456",
+    "code": "8888",
+    "is_success": true,
+    "expect": "我的账户"
+  }
+}
